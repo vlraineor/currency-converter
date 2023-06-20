@@ -1,0 +1,31 @@
+/* *{
+    font-family: 'Miltonian', cursive;
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #606C5D;
+    font-family: 'Miltonian', cursive;
+    padding: 20px;
+    color: #FFF4F4;
+    font-size: larger;
+    text-align: center;
+}
+
+body{
+    background-color: #F7E6C4;
+}
+.body{
+    color: #494F55;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.conversionSection{
+    min-width: 400px;
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
