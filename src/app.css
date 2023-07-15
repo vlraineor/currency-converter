@@ -4,6 +4,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 .header{
     background-color: #606C5D;
@@ -28,4 +29,32 @@ body{
     width: fit-content;
     margin: auto;
     margin-top: 30px;
+}
+div.inputSection{
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+   
+}
+ 
+@media all and (max-width: 480px) { 
+    /* *{
+        background-color: blue;
+    } */
+    div.inputSection{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:5px;
+    }
+    .arrowicon{
+        transform: rotate(90deg);
+    }
+    .conversionSection{
+        width: fit-content;
+        min-width: fit-content;
+    }
 }
